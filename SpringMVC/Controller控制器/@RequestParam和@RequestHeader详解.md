@@ -78,7 +78,6 @@ public class User {
 
 注意必须携带set方法或是构造方法中包含所有参数，请求参数会自动根据类中的字段名称进行匹配：
 
-
 ```java
 @RequestMapping(value = "/index")
 public ModelAndView index(User user){
